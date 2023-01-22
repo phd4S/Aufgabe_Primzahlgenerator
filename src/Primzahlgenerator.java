@@ -2,18 +2,15 @@
 // Entwerfen Sie eine Klasse, die Primzahlen erzeugen kann, beginnend bei einem Startwert.
 // Nachfolgende Aufrufe derselben Methode liefern jeweils die nächstfolgenden Primzahlen.
 
-// Vollständige Lösung:
+// Beginn einer Lösung:
 public class Primzahlgenerator {
-    // Attribut: startwert
-    // (Prinzip der Kapselung: alle Attribute sind private)
-    private int startwert;
 
-    // Aufgaben eines Konstruktor:
-    // Alle Attribute der Klasse auf einen Startwert setzen
-    // (typischerweise als Parameter des Konstruktors)
-    public Primzahlgenerator(int startwert) {
-        this.startwert = startwert;
-    }
+    // TODO
+    // Machen Sie eine richtige Klasse daraus, d.h. ergänzen Sie
+    // erstmal notwendige Attribute und einen entsprechenden Konstruktor!
+    // Hinweis: Die Aufgabenstellung spricht von einem "Startwert" für
+    // den Generator. Es spricht nichts dagegegen, das Attribut auch so
+    // zu nennen
 
     // statische Methode als Helfer, nutzbar ohne Instanz der Klasse
     // (Klassenmethode)
@@ -24,7 +21,4 @@ public class Primzahlgenerator {
         return true;
     }
 
-    // TODO
-    // Ergänzen Sie in der Klasse die Methode zum Geniereren der Primzahlen
-    // z.B. int generate()
 }
