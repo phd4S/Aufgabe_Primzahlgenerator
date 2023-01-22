@@ -37,18 +37,14 @@ public class Primzahlgenerator {
     }
 
     // Hauptprogramm
-    // (hat hier eigentlich nichts verloren, dient hier als Test und Simplifizierung)
-    // Anwender kann einen Startwert und die Anzahl zu generierender Primzahlen eingeben
+    // Der Anwender soll einen Startwert und die Anzahl zu generierender Primzahlen eingeben
     public static void main(String[] args) {
-        Scanner eingabe = new Scanner(System.in);
-        System.out.print("Bitte geben Sie den Startwert ein: ");
-        int startwert = eingabe.nextInt();
-        System.out.print("Bitte geben Sie die Anzahl ein: ");
-        int anzahl = eingabe.nextInt();
-
-        Primzahlgenerator primzahlgenerator = new Primzahlgenerator( startwert );
-        for (int i=0; i<anzahl; i++) {
-            System.out.println( primzahlgenerator.generate() );
-        }
+        // TODO
+        // Ergänzen Sie Ihre Klasse mit einem Hauptprogramm, um die Klasse zu testen.
+        // Es soll dabei ein Primzahlgenerator angelegt werden, dessen Startwert vom Anwender
+        // zu erfragen ist. Danach sollen eine bestimme Anzahl Primzahlen generiert werden.
+        // Die Anzahl soll ebenfalls vom Anwender angefragt werden.
+        // Anmerkung: Das Hauptprogramm sollte normalerweise nicht in dieser Klasse
+        // eingebaut werden. Dies dient jetzt nur zur Vereinfachung des Programmcodes.
     }
 }
